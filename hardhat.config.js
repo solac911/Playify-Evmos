@@ -14,9 +14,10 @@ module.exports = {
   },
   networks: {
     test: {
-      url: "http://127.0.0.1:7545",
+      url: "https://eth.bd.evmos.dev:8545",
+      chainId: 9000,
       accounts: [
-        "0e690d92d5e806a4777922c93d0391d7bff0ad10c3fa1a4dab001d77100df3a0",
+        "8df38f7a48aee08eb4b9067d760fd4dcb65772f4e34d63165021942d95650769",
       ],
     },
   },
